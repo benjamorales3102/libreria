@@ -1,0 +1,10 @@
+modifica el precio para que sea (ejemplo : $12.990)
+Solucion IA:
+Formateo el precio para que al ingresarlo se vea $12.990
+
+haz que la entidad precio este dentro del modelo de libros no que sea un modelo mas. agrega el dato correo en el modelo de editoriales
+Solucion IA:
+agrego el atributo correo, y agrego el la entidad precio al modelo libro.
+
+al ingresar datos en editorial me da el error que no tabla libreria editorial
+me oriento en que no hice migraciones.
