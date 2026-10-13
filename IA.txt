@@ -8,3 +8,7 @@ agrego el atributo correo, y agrego el la entidad precio al modelo libro.
 
 al ingresar datos en editorial me da el error que no tabla libreria editorial
 me oriento en que no hice migraciones.
+
+al ingresar datos en editorial me da el error que no tabla libreria editorial
+Solucion IA:
+La app está incluida en INSTALLED_APPS, pero no tiene migraciones iniciales. Por eso Django no creó libreria_editorial; voy a agregar la migración para los modelos actuales. Luego habrá que aplicarla a la base de datos con migrate.
